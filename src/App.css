@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #F2F8F2;
+  height: 150px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+main {
+  margin: 40px;
+}
+
+#logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 6px;
+  cursor: pointer;
+  background: #888;
+  color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 6px;
+}
