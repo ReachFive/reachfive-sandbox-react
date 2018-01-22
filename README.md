@@ -1,8 +1,8 @@
 # ReachFive React Sandbox
 
-This sandbox showcases how to use the ReachFive SDK along with two of its widgets in a SPA setup.
+This sandbox showcases how to use the ReachFive SDK along with two of its widgets in a SPA setup
 
-## Requirements
+## Requirements
 
 * Yarn
 
