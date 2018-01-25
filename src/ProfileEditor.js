@@ -14,7 +14,7 @@ class ProfileEditor extends Component {
     const { reach5, accessToken } = this.props
 
     reach5('showProfileEditor', {
-      container: container.id,
+      container,
       accessToken,
       fields: [
         'given_name',
@@ -29,7 +29,7 @@ class ProfileEditor extends Component {
 
   render() {
     return (
-      <div id="profileEditorContainer" ref={this.installWidget}></div>
+      <div ref={this.installWidget}></div>
     )
   }
 }

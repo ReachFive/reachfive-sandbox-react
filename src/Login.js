@@ -14,7 +14,7 @@ class Login extends Component {
     const { reach5 } = this.props
 
     reach5('showAuth', {
-      container: container.id,
+      container,
       onReady: widget => { this.widget = widget }
     })
 
@@ -30,7 +30,7 @@ class Login extends Component {
 
   render() {
     return (
-      <div id="loginContainer" ref={this.installWidget}></div>
+      <div ref={this.installWidget}></div>
     )
   }
 }
