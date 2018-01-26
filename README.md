@@ -8,8 +8,8 @@ This sandbox showcases how to use the ReachFive SDK along with two of its widget
 
 ## Install
 
-    git clone git@github.com:ReachFive/reachfive-sandbox-react-widget.git
-    cd reachfive-sandbox-react-widget
+    git clone git@github.com:ReachFive/reachfive-sandbox-react.git
+    cd reachfive-sandbox-react
     yarn
 
 ## Configuration
@@ -24,4 +24,4 @@ You can now see the app running at `http://localhost:3000`.
 
 ## Author
 
-[ReachFive](https://reach5.co)
+[ReachFive](https://reachfive.co)
