@@ -4,6 +4,7 @@ import './App.css'
 import WithReachFiveSDK from './WithReachFiveSDK'
 import Login from './Login'
 import ProfileEditor from './ProfileEditor'
+import './coreWebSdk'
 
 
 class App extends Component {

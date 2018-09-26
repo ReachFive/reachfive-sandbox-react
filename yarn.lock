@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@reachfive/identity-core@0.1.0-alpha.7":
+  version "0.1.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@reachfive/identity-core/-/identity-core-0.1.0-alpha.7.tgz#923c2068a61cd4464dc804417f53a2b5150e29de"
+  dependencies:
+    lodash-es "4.17.10"
+    validation.ts "0.0.23"
+    winchan "0.2.0"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -3099,6 +3107,10 @@ ignore@^3.3.3:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.7.tgz#612289bfb3c220e186a58118618d5be8c1bab021"
 
+immupdate@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/immupdate/-/immupdate-1.2.0.tgz#19576ba1fdaf55c9a1d6586d0a21788699a21541"
+
 import-local@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/import-local/-/import-local-0.1.1.tgz#b1179572aacdc11c6a91009fb430dbcab5f668a8"
@@ -3918,6 +3930,10 @@ locate-path@^2.0.0:
   dependencies:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
+
+lodash-es@4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.10.tgz#62cd7104cdf5dd87f235a837f0ede0e8e5117e05"
 
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
@@ -5758,6 +5774,12 @@ source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
+space-lift@>=0.0.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/space-lift/-/space-lift-0.8.0.tgz#64a0e14bca7b251023b93f0f2d05797ffddb9500"
+  dependencies:
+    immupdate "1.2.0"
+
 spdx-correct@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-1.0.2.tgz#4b3073d933ff51f3912f03ac5519498a4150db40"
@@ -6290,6 +6312,12 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
 
+validation.ts@0.0.23:
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/validation.ts/-/validation.ts-0.0.23.tgz#8e30f879c03b8f5e915b2cdb6aac29676102440e"
+  dependencies:
+    space-lift ">=0.0.0"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -6484,6 +6512,10 @@ widest-line@^1.0.0:
   resolved "https://registry.yarnpkg.com/widest-line/-/widest-line-1.0.0.tgz#0c09c85c2a94683d0d7eaf8ee097d564bf0e105c"
   dependencies:
     string-width "^1.0.1"
+
+winchan@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/winchan/-/winchan-0.2.0.tgz#3863028e7f974b0da1412f28417ba424972abd94"
 
 window-size@0.1.0:
   version "0.1.0"

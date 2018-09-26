@@ -3,6 +3,9 @@ import './App.css'
 import Loader from './Loader'
 
 
+/**
+ * This shows one way to wait for the <script> based sdk to load before using it.
+ */
 class WithReachFiveSDK extends Component {
 
   state = { loading: true }
