@@ -1,14 +1,13 @@
 /* This shows how to use the npm core sdk */
 
-import createSdk from '@reachfive/identity-core'
+import Client from '@reachfive/identity-core'
 
-
-const sdk = createSdk({
+const client = Client({
   domain: process.env.REACT_APP_REACH5_DOMAIN,
   clientId: process.env.REACT_APP_REACH5_CLIENT_ID
 })
 
-sdk.loginWithPassword({
+client.loginWithPassword({
   email: 'hey@gmail.com',
   password: 'pwd'
 })
