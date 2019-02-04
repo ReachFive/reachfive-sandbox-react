@@ -16,6 +16,8 @@ This sandbox showcases how to use the ReachFive SDK along with two of its widget
 
 Copy `.env` to `.env.local` and replace the values for `REACH5_DOMAIN`, `REACH5_CLIENT_ID`, and `REACH5_CLIENT_SECRET` with your ReachFive credentials.
 
+Do not forget to add `http://localhost:3000` in the allowed origins (CORS) field of your Reach5 client.
+
 ## Run
 
     yarn start
